@@ -19,8 +19,10 @@
 package snake2D;
 
 // snake2D
-import snake2D.Snake2DNode;
-
+import static java.lang.Math.abs;
+import static java.lang.Math.ceil;
+import static java.lang.Math.round;
+import static java.lang.Math.sqrt;
 // ImageJ
 import ij.IJ;
 import ij.ImagePlus;
@@ -49,12 +51,10 @@ import java.awt.FontMetrics;
 import java.awt.Frame;
 import java.awt.Graphics;
 import java.awt.GridLayout;
-import java.awt.Image;
 import java.awt.Insets;
 import java.awt.Label;
 import java.awt.Point;
 import java.awt.Polygon;
-import java.awt.Rectangle;
 import java.awt.Scrollbar;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -71,17 +71,10 @@ import java.awt.event.MouseMotionListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.awt.font.LineMetrics;
-
 // Java 1.2
 import java.awt.geom.Point2D;
-
 // Java 1.5
 import java.util.Vector;
-
-import static java.lang.Math.abs;
-import static java.lang.Math.ceil;
-import static java.lang.Math.round;
-import static java.lang.Math.sqrt;
 
 /*====================================================================
 |	Snake2DKeeper

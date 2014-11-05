@@ -17,11 +17,6 @@
 \===================================================================*/
 
 // snake2D
-import snake2D.Snake2D;
-import snake2D.Snake2DKeeper;
-import snake2D.Snake2DNode;
-import snake2D.Snake2DScale;
-
 // ImageJ
 import ij.ImagePlus;
 import ij.plugin.filter.PlugInFilter;
@@ -29,6 +24,11 @@ import ij.process.ImageProcessor;
 
 // Java 1.2
 import java.awt.geom.Point2D;
+
+import snake2D.Snake2D;
+import snake2D.Snake2DKeeper;
+import snake2D.Snake2DNode;
+import snake2D.Snake2DScale;
 
 /*====================================================================
 |	Snakuscule_

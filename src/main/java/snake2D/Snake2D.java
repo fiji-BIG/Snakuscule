@@ -19,8 +19,6 @@
 package snake2D;
 
 // snake2D
-import snake2D.Snake2DNode;
-
 //Java 1.2
 import java.awt.geom.Point2D;
 
